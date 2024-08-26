@@ -1,7 +1,6 @@
 package com.csc;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +9,7 @@ public class TestConverter {
   Converter converter;
 
   @BeforeEach
-  void setUp() {
+  void setUp (){
     converter = new Converter();
   }
 
